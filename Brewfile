@@ -124,9 +124,10 @@ mas "Mindnode 2", id: 992076693
 mas "Navicat Essentials for MySQL", id: 466415644
 mas "Navicat Essentials for PostgreSQL", id: 466725643
 mas "Numbers", id: 409203825
+mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Power JSON Editor", id: 499768540
 mas "Screenflow 6", id: 1107828211
 mas "Skitch", id: 425955336
 mas "Slack", id: 803453959
-mas "Textual 5", id: 896450579
+mas "Textual 6", id: 896450579
