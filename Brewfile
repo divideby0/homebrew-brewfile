@@ -32,7 +32,6 @@ brew "elm"
 brew "emacs", args: ["with-cocoa", "with-gnutls"]
 brew "expect"
 brew "ffmpeg"
-brew "ffmpeg"
 brew "file-formula"
 brew "filebeat"
 brew "findutils"
