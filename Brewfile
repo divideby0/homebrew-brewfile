@@ -1,5 +1,6 @@
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
+tap "caskroom/versions"
 
 # Core dependencies
 cask "java"
