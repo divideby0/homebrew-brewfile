@@ -3,6 +3,7 @@ tap "caskroom/cask"
 
 # Command line apps to install via Homebrew
 brew "ack"
+brew "ansible"
 brew "asciinema"
 brew "awk"
 brew "aws-shell"
@@ -83,8 +84,8 @@ brew "tree"
 brew "units"
 brew "unrar"
 brew "unzip"
-brew "vim" --with-client-server --with-luajit
-brew "wget" --with-gpgme
+brew "vim", args: ["with-client-server", "with-luajit"]
+brew "wget", args: ["with-gpgme"]
 brew "whois"
 brew "zlib"
 brew "zsh"
@@ -131,7 +132,8 @@ cask "vmware-fusion"
 cask "zoomus"
 
 # Desktop apps to install via Mac App Store
-mas "1Password", id: 443987910mas "caffeine", id: 411246225
+mas "1Password", id: 443987910
+mas "caffeine", id: 411246225
 mas "Disk Expert", id: 488920185
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 715768417
