@@ -83,7 +83,6 @@ brew "tfenv"
 brew "thrift"
 brew "tmux"
 brew "tree"
-brew "units"
 brew "unrar"
 brew "unzip"
 brew "vim", args: ["with-client-server", "with-luajit"]
