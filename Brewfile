@@ -50,7 +50,7 @@ brew "leiningen"
 brew "less"
 brew "libxml2"
 brew "libxslt"
-brew "lsof"*
+brew "lsof"
 brew "lua"
 brew "luajit"
 brew "mad"
