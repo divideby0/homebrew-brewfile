@@ -1,6 +1,7 @@
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/versions"
+tap "adamenger/doktor"
 
 # Core dependencies
 cask "java"
@@ -23,6 +24,7 @@ brew "cloc"
 brew "curl"
 brew "diffstat"
 brew "diffutils"
+brew "doktor"
 brew "ec2-ami-tools"
 brew "ec2-api-tools"
 brew "ed"
