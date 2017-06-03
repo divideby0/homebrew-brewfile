@@ -133,7 +133,6 @@ cask "zoomus"
 
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
-mas "Caffeine", id: 411246225
 mas "Disk Expert", id: 488920185
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 715768417
