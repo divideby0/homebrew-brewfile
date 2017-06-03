@@ -22,7 +22,7 @@ brew "ec2-ami-tools"
 brew "ec2-api-tools"
 brew "ed"
 brew "elm"
-brew "emacs" --with-cocoa --with-gnutls
+brew "emacs", args: ["with-cocoa", "with-gnutls"]
 brew "expect"
 brew "ffmpeg"
 brew "ffmpeg"
