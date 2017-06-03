@@ -1,6 +1,9 @@
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
+# Core dependencies
+cask "java"
+
 # Command line apps to install via Homebrew
 brew "ack"
 brew "ansible"
@@ -108,7 +111,6 @@ cask "google-cloud-sdk"
 cask "google-drive"
 cask "intellij-idea"
 cask "istat-menus"
-cask "java"
 cask "licecap"
 cask "microsoft-office"
 cask "minikube"
