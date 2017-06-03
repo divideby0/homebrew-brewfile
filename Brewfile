@@ -3,6 +3,7 @@ tap "caskroom/cask"
 
 # Core dependencies
 cask "java"
+cask "xquartz"
 
 # Command line apps to install via Homebrew
 brew "ack"
