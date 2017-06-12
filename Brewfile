@@ -141,8 +141,8 @@ mas "Disk Expert", id: 488920185
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Mindnode 2", id: 992076693
-mas "Navicat Essentials for MySQL", id: 466415644
-mas "Navicat Essentials for PostgreSQL", id: 466725643
+# mas "Navicat Essentials for MySQL", id: 466415644
+# mas "Navicat Essentials for PostgreSQL", id: 466725643
 mas "Numbers", id: 409203825
 mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
