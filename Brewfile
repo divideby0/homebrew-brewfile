@@ -124,6 +124,7 @@ cask "pritunl"
 cask "screenhero"
 cask "sketch"
 cask "skype"
+cask "slack"
 cask "sourcetree"
 cask "spectacle"
 cask "switchresx"
@@ -149,5 +150,4 @@ mas "Pages", id: 409201541
 mas "Power JSON Editor", id: 499768540
 mas "Screenflow 6", id: 1107828211
 mas "Skitch", id: 425955336
-mas "Slack", id: 803453959
 mas "Textual 6", id: 896450579
