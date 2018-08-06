@@ -45,6 +45,7 @@ brew "groff"
 brew "gzip"
 brew "heroku"
 brew "httpie"
+brew "htop"
 brew "imagemagick"
 brew "jq"
 brew "kafkacat"
@@ -71,9 +72,8 @@ brew "openssl"
 brew "p7zip"
 brew "packer"
 brew "phantomjs"
+brew "pipenv"
 brew "pv"
-brew "pyenv-virtualenv"
-brew "pyenv"
 brew "python3"
 brew "rsync"
 brew "sbt"
@@ -92,6 +92,7 @@ brew "unzip"
 brew "vim", args: ["with-client-server", "with-luajit"]
 brew "wget", args: ["with-gpgme"]
 brew "whois"
+brew "yarn"
 brew "zlib"
 brew "zsh"
 
@@ -99,12 +100,14 @@ brew "zsh"
 cask "adobe-creative-cloud"
 cask "atom"
 cask "betterzip"
+cask "bettertouchtool"
 cask "caffeine"
 cask "charles"
 cask "chefdk"
 cask "consul-cli"
 cask "dash"
 cask "datagrip"
+cask "deckset"
 cask "docker-edge"
 cask "eclipse-java"
 cask "firefox"
@@ -115,18 +118,20 @@ cask "handbrake"
 cask "insomnia"
 cask "intellij-idea"
 cask "istat-menus"
-cask "licecap"
+cask "keybase"
 cask "microsoft-office"
 cask "minikube"
 cask "osxfuse"
 cask "pritunl"
+cask "pycharm"
+cask "screenflow"
 cask "sketch"
 cask "skype"
 cask "slack"
 cask "sourcetree"
 cask "spectacle"
 cask "switchresx"
-cask "toggldesktop"
+cask "toggl-beta"
 cask "transmit"
 cask "vagrant"
 cask "virtualbox"
@@ -140,12 +145,9 @@ mas "Disk Expert", id: 488920185
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Mindnode 2", id: 992076693
-# mas "Navicat Essentials for MySQL", id: 466415644
-# mas "Navicat Essentials for PostgreSQL", id: 466725643
 mas "Numbers", id: 409203825
 mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Power JSON Editor", id: 499768540
-mas "Screenflow 6", id: 1107828211
 mas "Skitch", id: 425955336
-mas "Textual 6", id: 896450579
+mas "Textual 7", id: 1262957439
