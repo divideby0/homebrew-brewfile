@@ -1,7 +1,6 @@
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/versions"
-tap "adamenger/doktor"
 
 # Core dependencies
 cask "java"
@@ -24,7 +23,6 @@ brew "cloc"
 brew "curl"
 brew "diffstat"
 brew "diffutils"
-brew "doktor"
 brew "ec2-ami-tools"
 brew "ec2-api-tools"
 brew "ed"
@@ -106,13 +104,12 @@ cask "chefdk"
 cask "consul-cli"
 cask "dash"
 cask "datagrip"
-cask "docker"
+cask "docker-edge"
 cask "eclipse-java"
 cask "firefox"
 cask "google-chrome-canary"
 cask "google-chrome"
 cask "google-cloud-sdk"
-cask "google-drive"
 cask "handbrake"
 cask "insomnia"
 cask "intellij-idea"
@@ -122,9 +119,9 @@ cask "microsoft-office"
 cask "minikube"
 cask "osxfuse"
 cask "pritunl"
-cask "screenhero"
 cask "sketch"
 cask "skype"
+cask "slack"
 cask "sourcetree"
 cask "spectacle"
 cask "switchresx"
@@ -150,5 +147,4 @@ mas "Pages", id: 409201541
 mas "Power JSON Editor", id: 499768540
 mas "Screenflow 6", id: 1107828211
 mas "Skitch", id: 425955336
-mas "Slack", id: 803453959
 mas "Textual 6", id: 896450579
