@@ -138,6 +138,7 @@ cask "transmit"
 cask "vagrant"
 cask "virtualbox"
 cask "viscosity"
+cask "visual-studio-code"
 cask "vmware-fusion"
 cask "zoomus"
 
