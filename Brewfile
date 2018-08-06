@@ -1,6 +1,7 @@
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/versions"
+tap "chef/chef"
 
 # Core dependencies
 cask "java8" unless system "/usr/libexec/java_home --failfast"
