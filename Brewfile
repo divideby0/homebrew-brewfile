@@ -80,6 +80,7 @@ brew "rsync"
 brew "sbt"
 brew "screen"
 brew "shellcheck"
+brew "socat"
 brew "sox"
 brew "sqlite"
 brew "ssh-copy-id"
@@ -147,6 +148,7 @@ cask "zoomus"
 
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
+mas "Airmail 3", id: 918858936
 mas "Disk Expert", id: 488920185
 mas "Fantastical 2", id: 975937182
 mas "Keynote", id: 409183694
