@@ -80,6 +80,7 @@ brew "rsync"
 brew "sbt"
 brew "screen"
 brew "shellcheck"
+brew "socat"
 brew "sox"
 brew "sqlite"
 brew "ssh-copy-id"
@@ -99,6 +100,7 @@ brew "zlib"
 brew "zsh"
 
 # Desktop apps to install via Cask
+cask "ableton-live-standard"
 cask "adobe-creative-cloud"
 cask "atom"
 cask "betterzip"
@@ -127,6 +129,7 @@ cask "minikube"
 cask "osxfuse"
 cask "pritunl"
 cask "pycharm"
+cask "quicken"
 cask "screenflow"
 cask "sketch"
 cask "skype"
@@ -145,7 +148,9 @@ cask "zoomus"
 
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
+mas "Airmail 3", id: 918858936
 mas "Disk Expert", id: 488920185
+mas "Fantastical 2", id: 975937182
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Mindnode 2", id: 992076693
@@ -155,3 +160,4 @@ mas "Pages", id: 409201541
 mas "Power JSON Editor", id: 499768540
 mas "Skitch", id: 425955336
 mas "Textual 7", id: 1262957439
+mas "WhatsApp Desktop", id: 1147396723
