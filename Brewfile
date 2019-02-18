@@ -4,7 +4,7 @@ tap "caskroom/versions"
 tap "chef/chef"
 
 # Core dependencies
-cask "java8" unless system "/usr/libexec/java_home --failfast"
+cask "java" unless system "/usr/libexec/java_home --failfast"
 cask "xquartz"
 
 # Command line apps to install via Homebrew
