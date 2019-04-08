@@ -158,6 +158,6 @@ mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Power JSON Editor", id: 499768540
 mas "Skitch", id: 425955336
-mas "Spark", 1176895641
+mas "Spark", id: 1176895641
 mas "Textual 7", id: 1262957439
 mas "WhatsApp Desktop", id: 1147396723
