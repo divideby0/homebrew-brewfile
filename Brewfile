@@ -92,7 +92,7 @@ brew "tmux"
 brew "tree"
 brew "unrar"
 brew "unzip"
-brew "vim", args: ["with-client-server", "with-luajit"]
+# brew "vim", args: ["with-client-server", "with-luajit"]
 brew "wget", args: ["with-gpgme"]
 brew "whois"
 brew "yarn"
