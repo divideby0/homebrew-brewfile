@@ -4,7 +4,7 @@ tap "caskroom/versions"
 tap "chef/chef"
 
 # Core dependencies
-cask "java8" unless system "/usr/libexec/java_home --failfast"
+cask "java" unless system "/usr/libexec/java_home --failfast"
 cask "xquartz"
 
 # Command line apps to install via Homebrew
@@ -148,7 +148,6 @@ cask "zoomus"
 
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
-mas "Airmail 3", id: 918858936
 mas "Disk Expert", id: 488920185
 mas "Fantastical 2", id: 975937182
 mas "Keynote", id: 409183694
@@ -159,5 +158,6 @@ mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Power JSON Editor", id: 499768540
 mas "Skitch", id: 425955336
+mas "Spark", id: 1176895641
 mas "Textual 7", id: 1262957439
 mas "WhatsApp Desktop", id: 1147396723
