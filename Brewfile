@@ -79,8 +79,8 @@ brew "tmux"
 brew "tree"
 brew "unrar"
 brew "unzip"
-brew "vim", args: ["with-client-server", "with-luajit"]
-brew "wget", args: ["with-gpgme"]
+brew "vim", args: ["with-luajit"]
+brew "wget"
 brew "whois"
 brew "youtube-dl"
 brew "zlib"
