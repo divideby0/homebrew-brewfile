@@ -130,7 +130,6 @@ cask "slack"
 cask "sourcetree"
 cask "spectacle"
 cask "spotify"
-cask "switchresx"
 cask "transmit"
 cask "virtualbox"
 cask "viscosity"
@@ -141,6 +140,7 @@ cask "https://raw.githubusercontent.com/Homebrew/homebrew-cask/b4e26d8789a00c6cc
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
 mas "Disk Expert", id: 488920185
+mas "EasyRes", id: 688211836
 mas "Fantastical 2", id: 975937182
 mas "feedly", id: 865500966
 mas "Harvest", id: 506189836
