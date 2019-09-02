@@ -102,7 +102,6 @@ cask "deckset"
 cask "docker-edge"
 cask "encryptme"
 cask "firefox"
-cask "flycut"
 cask "font-meslo-for-powerline"
 cask "font-montserrat"
 cask "framer-x"
@@ -149,6 +148,7 @@ mas "Mindnode 6", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
+mas "Paste", id: 967805235
 mas "Patterns", id: 429449079
 mas "Skitch", id: 425955336
 mas "Smart JSON Editor", id: 1268962404
