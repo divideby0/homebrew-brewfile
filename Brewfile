@@ -79,7 +79,7 @@ brew "tmux"
 brew "tree"
 brew "unrar"
 brew "unzip"
-brew "vim", args: ["with-luajit"]
+brew "vim"
 brew "wget"
 brew "whois"
 brew "youtube-dl"
