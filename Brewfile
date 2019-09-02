@@ -88,6 +88,7 @@ brew "zsh-completions"
 brew "zsh"
 
 # Desktop apps to install via Cask
+cask "ableton-live-standard9"
 cask "adobe-creative-cloud"
 cask "bettertouchtool"
 cask "betterzip"
@@ -131,11 +132,9 @@ cask "sourcetree"
 cask "spectacle"
 cask "spotify"
 cask "transmit"
-cask "virtualbox"
 cask "viscosity"
 cask "visual-studio-code"
 cask "zoomus"
-cask "ableton-live-standard9"
 
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
