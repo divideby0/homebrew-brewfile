@@ -136,7 +136,7 @@ cask "visual-studio-code"
 cask "zoomus"
 
 # Desktop apps to install via Mac App Store
-mas "1Password", id: 443987910
+mas "1Password 7", id: 1333542190
 mas "Disk Expert", id: 488920185
 mas "EasyRes", id: 688211836
 mas "Fantastical 2", id: 975937182
