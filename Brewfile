@@ -135,7 +135,7 @@ cask "virtualbox"
 cask "viscosity"
 cask "visual-studio-code"
 cask "zoomus"
-cask "https://raw.githubusercontent.com/Homebrew/homebrew-cask/b4e26d8789a00c6cce4d1bdea4c4601240b53b89/Casks/ableton-live-standard.rb" # Ableton Live Standard 9.x
+cask "ableton-live-standard9"
 
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
