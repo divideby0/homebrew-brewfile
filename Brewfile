@@ -57,7 +57,6 @@ brew "lsof", link: true
 brew "mad"
 brew "make"
 brew "mas"
-brew "md5sha1sum"
 brew "nano"
 brew "ncurses"
 brew "openssl"
