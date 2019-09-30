@@ -89,7 +89,7 @@ brew "zsh-completions"
 brew "zsh"
 
 # Desktop apps to install via Cask
-cask "ableton-live-standard9"
+# cask "ableton-live-standard9"
 cask "adobe-creative-cloud"
 cask "bettertouchtool"
 cask "betterzip"
@@ -120,7 +120,7 @@ cask "keybase"
 cask "kindle"
 cask "microsoft-office"
 cask "microsoft-teams"
-cask "native-access"
+# cask "native-access" # Native Instruments Installer
 cask "notion"
 cask "phantomjs"
 cask "pycharm"
@@ -159,5 +159,5 @@ mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
 mas "Tweetbot", id: 1384080005
 mas "Vimeo", id: 1356686763
-mas "WhatsApp Desktop", id: 1147396723
+# mas "WhatsApp Desktop", id: 1147396723
 mas "Xcode", id: 497799835
