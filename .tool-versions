@@ -1,0 +1,11 @@
+# Install these via asdf
+nodejs 10.16.3
+python 3.7.4
+helm 2.14.3
+terraform 0.12.7
+sops 3.3.1
+terragrunt 0.19.21
+k9s 0.8.4
+helmfile 0.82.0
+elixir 1.9.1
+rust 1.38.0
