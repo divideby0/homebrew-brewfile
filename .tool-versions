@@ -2,6 +2,8 @@
 nodejs 10.16.3
 python 3.7.4
 helm 2.14.3
+helmfile 0.82.0
+heptio-authenticator-aws 0.3.0
 terraform 0.12.7
 sops 3.3.1
 terragrunt 0.19.21
