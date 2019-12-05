@@ -1,6 +1,5 @@
 cask_args appdir: "/Applications"
-tap "caskroom/cask"
-tap "caskroom/versions"
+tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "heroku/brew"
 tap "holgerbrandl/tap"
