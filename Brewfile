@@ -1,13 +1,16 @@
 cask_args appdir: "/Applications"
-tap "homebrew/cask-cask"
+
 tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "heroku/brew"
 tap "holgerbrandl/tap"
 
-# Core dependencies
+# Core dependencies and high-priority installs
 cask "xquartz"
 cask "adoptopenjdk"
+cask "istat-menus"
+cask "iterm2"
+cask "google-chrome"
 
 # Command line apps to install via Homebrew
 brew "ack"
@@ -89,7 +92,7 @@ brew "zsh-completions"
 brew "zsh"
 
 # Desktop apps to install via Cask
-cask "ableton-live-standard9"
+# cask "ableton-live-standard9"
 cask "adobe-creative-cloud"
 cask "bettertouchtool"
 cask "betterzip"
@@ -108,19 +111,16 @@ cask "font-source-code-pro-for-powerline"
 cask "font-montserrat"
 cask "framer-x"
 cask "google-chrome-canary"
-cask "google-chrome"
 cask "google-cloud-sdk"
 cask "grammarly"
 cask "handbrake"
 cask "insomnia"
 cask "intellij-idea"
-cask "istat-menus"
-cask "iterm2"
 cask "keybase"
 cask "kindle"
 cask "microsoft-office"
 cask "microsoft-teams"
-cask "native-access"
+cask "native-access" # Native Instruments Installer
 cask "notion"
 cask "phantomjs"
 cask "pycharm"
