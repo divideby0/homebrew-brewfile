@@ -84,7 +84,7 @@ brew "tree"
 brew "unrar"
 brew "unzip"
 brew "wget"
-# brew "vim", args: ["with-client-server", "with-luajit"]
+brew "vim"
 brew "whois"
 brew "youtube-dl"
 brew "zlib"
@@ -92,7 +92,7 @@ brew "zsh-completions"
 brew "zsh"
 
 # Desktop apps to install via Cask
-# cask "ableton-live-standard9"
+
 cask "adobe-creative-cloud"
 cask "bettertouchtool"
 cask "betterzip"
@@ -123,18 +123,15 @@ cask "kindle"
 cask "microsoft-office"
 cask "microsoft-teams"
 cask "miro-formerly-realtime-board"
-cask "native-access" # Native Instruments Installer
 cask "notion"
 cask "phantomjs"
 cask "pycharm"
 cask "quickbooks-online"
-cask "quik"
 cask "sketch"
 cask "skype"
 cask "slack"
 cask "sourcetree"
 cask "spectacle"
-cask "spotify"
 cask "transmit"
 cask "vagrant"
 cask "vip-access"
@@ -142,7 +139,6 @@ cask "viscosity"
 cask "visual-studio-code"
 cask "vmware-fusion"
 cask "zoomus"
-cask "unity"
 
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
@@ -166,5 +162,12 @@ mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
 mas "Tweetbot", id: 1384080005
 mas "Vimeo", id: 1356686763
-mas "WhatsApp Desktop", id: 1147396723
 mas "Xcode", id: 497799835
+
+# Personal: Cedric
+cask "ableton-live-standard9"
+cask "native-access" # Native Instruments Installer
+cask "spotify"
+cask "quik"
+cask "unity"
+mas "WhatsApp Desktop", id: 1147396723
