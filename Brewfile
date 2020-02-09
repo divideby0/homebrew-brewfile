@@ -1,12 +1,16 @@
 cask_args appdir: "/Applications"
+
 tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "heroku/brew"
 tap "holgerbrandl/tap"
 
-# Core dependencies
+# Core dependencies and high-priority installs
 cask "xquartz"
 cask "adoptopenjdk"
+cask "istat-menus"
+cask "iterm2"
+cask "google-chrome"
 
 # Command line apps to install via Homebrew
 brew "ack"
@@ -107,19 +111,16 @@ cask "font-source-code-pro-for-powerline"
 cask "font-montserrat"
 cask "framer-x"
 cask "google-chrome-canary"
-cask "google-chrome"
 cask "google-cloud-sdk"
 cask "grammarly"
 cask "handbrake"
 cask "insomnia"
 cask "intellij-idea"
-cask "istat-menus"
-cask "iterm2"
 cask "keybase"
 cask "kindle"
 cask "microsoft-office"
 cask "microsoft-teams"
-# cask "native-access" # Native Instruments Installer
+cask "native-access" # Native Instruments Installer
 cask "notion"
 cask "phantomjs"
 cask "pycharm"
@@ -158,5 +159,5 @@ mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
 mas "Tweetbot", id: 1384080005
 mas "Vimeo", id: 1356686763
-# mas "WhatsApp Desktop", id: 1147396723
+mas "WhatsApp Desktop", id: 1147396723
 mas "Xcode", id: 497799835
