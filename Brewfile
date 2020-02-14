@@ -166,9 +166,9 @@ mas "Vimeo", id: 1356686763
 mas "Xcode", id: 497799835
 
 # Personal: Cedric
-cask "ableton-live-standard9"
-cask "native-access" # Native Instruments Installer
-cask "spotify"
-cask "quik"
-cask "unity"
-mas "WhatsApp Desktop", id: 1147396723
+# cask "ableton-live-standard9"
+# cask "native-access" # Native Instruments Installer
+# cask "spotify"
+# cask "quik"
+# cask "unity"
+# mas "WhatsApp Desktop", id: 1147396723
