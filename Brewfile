@@ -155,6 +155,7 @@ mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Paste", id: 967805235
 mas "Patterns", id: 429449079
+mas "Screenflow", id: 1475796517
 mas "Skitch", id: 425955336
 mas "Smart JSON Editor", id: 1268962404
 mas "Spark", id: 1176895641
