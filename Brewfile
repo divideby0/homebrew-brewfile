@@ -84,7 +84,7 @@ brew "tree"
 brew "unrar"
 brew "unzip"
 brew "wget"
-# brew "vim", args: ["with-client-server", "with-luajit"]
+brew "vim"
 brew "whois"
 brew "youtube-dl"
 brew "zlib"
@@ -92,7 +92,7 @@ brew "zsh-completions"
 brew "zsh"
 
 # Desktop apps to install via Cask
-# cask "ableton-live-standard9"
+
 cask "adobe-creative-cloud"
 cask "bettertouchtool"
 cask "betterzip"
@@ -110,8 +110,10 @@ cask "font-meslo-for-powerline"
 cask "font-source-code-pro-for-powerline"
 cask "font-montserrat"
 cask "framer-x"
+cask "goland"
 cask "google-chrome-canary"
 cask "google-cloud-sdk"
+cask "google-drive-file-stream"
 cask "grammarly"
 cask "handbrake"
 cask "insomnia"
@@ -120,21 +122,22 @@ cask "keybase"
 cask "kindle"
 cask "microsoft-office"
 cask "microsoft-teams"
-cask "native-access" # Native Instruments Installer
+cask "miro-formerly-realtimeboard"
 cask "notion"
 cask "phantomjs"
 cask "pycharm"
 cask "quickbooks-online"
-cask "quik"
 cask "sketch"
 cask "skype"
 cask "slack"
 cask "sourcetree"
 cask "spectacle"
-cask "spotify"
 cask "transmit"
+cask "vagrant"
+cask "vip-access"
 cask "viscosity"
 cask "visual-studio-code"
+cask "vmware-fusion"
 cask "zoomus"
 
 # Desktop apps to install via Mac App Store
@@ -152,6 +155,7 @@ mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Paste", id: 967805235
 mas "Patterns", id: 429449079
+mas "Screenflow", id: 1475796517
 mas "Skitch", id: 425955336
 mas "Smart JSON Editor", id: 1268962404
 mas "Spark", id: 1176895641
@@ -159,5 +163,12 @@ mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
 mas "Tweetbot", id: 1384080005
 mas "Vimeo", id: 1356686763
-mas "WhatsApp Desktop", id: 1147396723
 mas "Xcode", id: 497799835
+
+# Personal: Cedric
+cask "ableton-live-standard9"
+cask "native-access" # Native Instruments Installer
+cask "spotify"
+cask "quik"
+cask "unity"
+mas "WhatsApp Desktop", id: 1147396723
