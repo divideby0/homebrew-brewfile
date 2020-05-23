@@ -1,36 +1,37 @@
 cask_args appdir: "/Applications"
 
-tap "homebrew/cask-versions"
-tap "homebrew/cask-fonts"
-tap "heroku/brew"
-tap "holgerbrandl/tap"
+tap "homebrew/cask-versions" # For docker-edge, etc
+tap "homebrew/cask-fonts" # For installing preferred terminal fonts, etc
+tap "heroku/brew" # For the Heroku CLI
+tap "holgerbrandl/tap" # for KScript (Kotlin scripting)
+tap "aoki/redis-cli" # For installing the Redis CLI (without installing Redis Server)
 
 # Core dependencies and high-priority installs
 cask "xquartz"
 cask "adoptopenjdk"
 brew "mas"
+brew "asdf"
 brew "nano"
 cask "google-chrome"
 cask "istat-menus"
 cask "slack"
 cask "zoomus"
 cask "notion"
-mas "1Password", id: 443987910
 cask "iterm2"
 cask "visual-studio-code"
 cask "intellij-idea"
 cask "keybase"
-cask "adobe-creative-cloud"
-
+cask "adobe-creative-cloud" # Actually Adobe apps will need to be installed separately
+mas "1Password", id: 443987910
 
 # Command line apps to install via Homebrew
 brew "ack"
 brew "ansible"
 brew "asciinema"
-brew "asdf"
 brew "awk"
 brew "aws-shell"
 brew "awscli"
+brew "azure-cli"
 brew "bash"
 brew "bc"
 brew "bfg"
@@ -76,6 +77,7 @@ brew "openssl"
 brew "p7zip"
 brew "pipenv"
 brew "pv"
+brew "redis-cli"
 brew "ripgrep"
 brew "rsync"
 brew "sbt"
