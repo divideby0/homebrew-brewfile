@@ -8,9 +8,20 @@ tap "holgerbrandl/tap"
 # Core dependencies and high-priority installs
 cask "xquartz"
 cask "adoptopenjdk"
-cask "istat-menus"
-cask "iterm2"
+brew "mas"
+brew "nano"
 cask "google-chrome"
+cask "istat-menus"
+cask "slack"
+cask "zoomus"
+cask "notion"
+mas "1Password", id: 443987910
+cask "iterm2"
+cask "visual-studio-code"
+cask "intellij-idea"
+cask "keybase"
+cask "adobe-creative-cloud"
+
 
 # Command line apps to install via Homebrew
 brew "ack"
@@ -60,8 +71,6 @@ brew "libxslt"
 brew "lsof", link: true
 brew "mad"
 brew "make"
-brew "mas"
-brew "nano"
 brew "ncurses"
 brew "openssl"
 brew "p7zip"
@@ -93,7 +102,6 @@ brew "zsh"
 
 # Desktop apps to install via Cask
 
-cask "adobe-creative-cloud"
 cask "bettertouchtool"
 cask "betterzip"
 cask "brave-browser"
@@ -117,31 +125,24 @@ cask "google-drive-file-stream"
 cask "grammarly"
 cask "handbrake"
 cask "insomnia"
-cask "intellij-idea"
-cask "keybase"
 cask "kindle"
 cask "microsoft-office"
 cask "microsoft-teams"
 cask "miro-formerly-realtimeboard"
-cask "notion"
 cask "phantomjs"
 cask "pycharm"
 cask "quickbooks-online"
 cask "sketch"
 cask "skype"
-cask "slack"
 cask "sourcetree"
 cask "spectacle"
 cask "transmit"
 cask "vagrant"
 cask "vip-access"
 cask "viscosity"
-cask "visual-studio-code"
 cask "vmware-fusion"
-cask "zoomus"
 
 # Desktop apps to install via Mac App Store
-mas "1Password", id: 443987910
 mas "Disk Expert", id: 488920185
 mas "EasyRes", id: 688211836
 mas "Fantastical 2", id: 975937182
