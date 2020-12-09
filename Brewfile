@@ -1,5 +1,6 @@
 cask_args appdir: "/Applications"
 
+tap "tclass/cloud_sql_proxy"
 tap "homebrew/cask-versions" # For docker-edge, etc
 tap "homebrew/cask-fonts" # For installing preferred terminal fonts, etc
 tap "heroku/brew" # For the Heroku CLI
@@ -39,6 +40,7 @@ brew "boost"
 brew "bzip2"
 brew "cairo"
 brew "cloc"
+brew "cloud_sql_proxy"
 brew "curl"
 brew "diceware"
 brew "diffstat"
