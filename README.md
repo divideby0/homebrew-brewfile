@@ -2,7 +2,7 @@
 
 ## 1. Decide what account type you'll use with the Mac App store 
 
-Bootstrapping your MacBook will involve installing a few applications from the Mac App Store. You can use your personal Apple/Mac account on your Spantree laptop if you prefer or you can use Spantree's account if you prefer to have access to some paid applications like Screenflow for screenrecording. If you want to use the Spantree acount, see someone from the Spantree ops team to get a login for this.
+Bootstrapping your MacBook will involve installing a few applications from the Mac App Store. You can use your personal Apple/Mac account on your Spantree laptop if you prefer or you can use Spantree's account if you prefer to have access to some paid applications like Screenflow for screenrecording. If you want to use the Spantree account, see someone from the Spantree ops team to get a login for this.
 
 ## 2. Fork the Official Spantree Brewfile
 
