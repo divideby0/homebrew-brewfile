@@ -34,7 +34,7 @@ When the script runs, it may prompt you for your system password from time to ti
 
 The full Strap process takes a while (an hour or two), but keep an eye on any additional password prompts as the `sudo` command may occassionally time out.
 
-# 6. Install versioned tools via ASDF
+## 6. Install versioned tools via ASDF
 
 We use ASDF ([https://github.com/asdf-vm/asdf](https://github.com/asdf-vm/asdf)) to manage tools like Python and Node where we may want several different versions installed. Inside the cloned `~/.homebrew-brewfile` repository that Strap maintains, you should see a `.tool-versions`. Once your strap install has indicated it's installed the `asdf` tool, you should be able to run the following:
 
