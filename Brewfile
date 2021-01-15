@@ -20,6 +20,7 @@ cask "zoomus"
 cask "notion"
 cask "iterm2"
 cask "visual-studio-code"
+cask "visual-studio-code-insiders" # for native Apple Silicon support
 cask "intellij-idea"
 cask "keybase"
 cask "adobe-creative-cloud" # Actually Adobe apps will need to be installed separately
