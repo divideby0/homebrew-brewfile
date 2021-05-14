@@ -84,9 +84,9 @@ brew "rar"
 brew "redis-cli"
 brew "ripgrep"
 brew "rsync"
-# brew "sbt" not compatible with arm64
+# brew "sbt" | sbt compatible with arm64
 brew "screen"
-brew "shellcheck", args: ["build-from-source"]
+# brew "shellcheck", args: ["build-from-source"] | this doesn't seem to install cleanly for unknown reasons
 brew "socat"
 brew "sox"
 brew "sqlite"
