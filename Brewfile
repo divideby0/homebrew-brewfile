@@ -86,7 +86,7 @@ brew "ripgrep"
 brew "rsync"
 # brew "sbt" not compatible with arm64
 brew "screen"
-brew "shellcheck" {args: "build-from-source"}
+brew "shellcheck", {args: "build-from-source"}
 brew "socat"
 brew "sox"
 brew "sqlite"
