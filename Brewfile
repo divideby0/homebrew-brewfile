@@ -6,7 +6,7 @@ tap "homebrew/cask-fonts" # For installing preferred terminal fonts, etc
 tap "heroku/brew" # For the Heroku CLI
 tap "holgerbrandl/tap" # for KScript (Kotlin scripting)
 tap "aoki/redis-cli" # For installing the Redis CLI (without installing Redis Server)
-
+tap "graalvm/tap"
 # Core dependencies and high-priority installs
 cask "xquartz"
 cask "adoptopenjdk"
@@ -84,7 +84,8 @@ brew "rar"
 brew "redis-cli"
 brew "ripgrep"
 brew "rsync"
-# brew "sbt" | sbt compatible with arm64
+# brew "svn"
+# brew "sbt"
 brew "screen"
 # brew "shellcheck", args: ["build-from-source"] | this doesn't seem to install cleanly for unknown reasons
 brew "socat"
@@ -106,8 +107,7 @@ brew "zsh-completions"
 brew "zsh"
 
 # Desktop apps to install via Cask
-
-cask "bettertouchtool"
+# cask "bettertouchtool"
 cask "betterzip"
 cask "brave-browser"
 cask "caffeine"
@@ -125,8 +125,9 @@ cask "font-meslo-for-powerline"
 cask "framer-x"
 cask "goland"
 cask "google-chrome-canary"
-cask "google-cloud-sdk"
+## cask "google-cloud-sdk"
 cask "google-drive-file-stream"
+cask "graalvm"
 cask "grammarly"
 cask "handbrake"
 cask "insomnia"
@@ -172,9 +173,9 @@ mas "Vimeo", id: 1356686763
 mas "Xcode", id: 497799835
 
 # # Personal: Cedric
-# cask "ableton-live-standard9"
-# cask "native-access" # Native Instruments Installer
-# cask "spotify"
+cask "ableton-live-suite"
+cask "native-access" # Native Instruments Installer
+cask "spotify"
 # cask "quik"
 # cask "unity"
-# mas "WhatsApp Desktop", id: 1147396723
+mas "WhatsApp Desktop", id: 1147396723
