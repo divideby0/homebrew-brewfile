@@ -53,6 +53,7 @@ brew "expect"
 brew "ffmpeg"
 brew "file-formula"
 brew "findutils"
+brew "git"
 brew "gnu-tar"
 brew "gnu-getopt"
 brew "gnupg2"
@@ -80,7 +81,6 @@ brew "openssl"
 brew "p7zip"
 brew "pipenv"
 brew "pv"
-brew "rar"
 brew "redis-cli"
 brew "ripgrep"
 brew "rsync"
@@ -113,6 +113,7 @@ cask "brave-browser"
 cask "caffeine"
 cask "camunda-modeler"
 cask "charles"
+cask "clickup"
 cask "dash"
 cask "datagrip"
 cask "deckset"
@@ -122,7 +123,7 @@ cask "firefox"
 cask "font-meslo-for-powerline"
 # cask "font-source-code-pro-for-powerline"
 # cask "font-montserrat"
-cask "framer-x"
+# cask "framer-x"
 cask "goland"
 cask "google-chrome-canary"
 ## cask "google-cloud-sdk"
@@ -138,10 +139,12 @@ cask "miro"
 cask "phantomjs"
 cask "pycharm"
 cask "quickbooks-online"
+cask "rar"
 cask "sketch"
 cask "skype"
 cask "sourcetree"
 cask "spectacle"
+cask "superhuman"
 cask "transmit"
 cask "vagrant"
 cask "vip-access"
@@ -162,10 +165,10 @@ mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Paste", id: 967805235
 mas "Patterns", id: 429449079
-mas "Screenflow", id: 1475796517
+mas "Screenflow 10", id: 1568414480
 mas "Skitch", id: 425955336
 mas "Smart JSON Editor", id: 1268962404
-mas "Spark", id: 1176895641
+# mas "Spark", id: 1176895641
 mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
 mas "Tweetbot", id: 1384080005
