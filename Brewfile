@@ -1,5 +1,8 @@
 cask_args appdir: "/Applications"
 
+###############################################################################
+# Third-Party Homebrew Taps
+###############################################################################
 tap "tclass/cloud_sql_proxy"
 tap "homebrew/cask-versions" # For docker-edge, etc
 tap "homebrew/cask-fonts" # For installing preferred terminal fonts, etc
@@ -7,7 +10,10 @@ tap "heroku/brew" # For the Heroku CLI
 tap "holgerbrandl/tap" # for KScript (Kotlin scripting)
 tap "aoki/redis-cli" # For installing the Redis CLI (without installing Redis Server)
 tap "graalvm/tap"
+
+###############################################################################
 # Core dependencies and high-priority installs
+###############################################################################
 cask "xquartz"
 cask "adoptopenjdk"
 brew "mas"
@@ -23,10 +29,12 @@ cask "visual-studio-code"
 cask "visual-studio-code-insiders" # for native Apple Silicon support
 cask "intellij-idea"
 cask "keybase"
-cask "adobe-creative-cloud" # Actually Adobe apps will need to be installed separately
+cask "adobe-creative-cloud" # Actual Adobe apps will need to be installed separately
 mas "1Password", id: 443987910
 
+###############################################################################
 # Command line apps to install via Homebrew
+###############################################################################
 brew "ack"
 brew "ansible"
 brew "asciinema"
@@ -84,10 +92,7 @@ brew "pv"
 brew "redis-cli"
 brew "ripgrep"
 brew "rsync"
-# brew "svn"
-# brew "sbt"
 brew "screen"
-# brew "shellcheck", args: ["build-from-source"] | this doesn't seem to install cleanly for unknown reasons
 brew "socat"
 brew "sox"
 brew "sqlite"
@@ -106,8 +111,9 @@ brew "zlib"
 brew "zsh-completions"
 brew "zsh"
 
+###############################################################################
 # Desktop apps to install via Cask
-# cask "bettertouchtool"
+###############################################################################
 cask "betterzip"
 cask "brave-browser"
 cask "caffeine"
@@ -121,12 +127,8 @@ cask "docker-edge"
 cask "encryptme"
 cask "firefox"
 cask "font-meslo-for-powerline"
-# cask "font-source-code-pro-for-powerline"
-# cask "font-montserrat"
-# cask "framer-x"
 cask "goland"
 cask "google-chrome-canary"
-## cask "google-cloud-sdk"
 cask "google-drive-file-stream"
 cask "graalvm-ce-lts-java11"
 cask "grammarly"
@@ -151,7 +153,9 @@ cask "vip-access"
 cask "viscosity"
 cask "vmware-fusion"
 
+###############################################################################
 # Desktop apps to install via Mac App Store
+###############################################################################
 mas "Disk Expert", id: 488920185
 mas "EasyRes", id: 688211836
 mas "Fantastical 2", id: 975937182
@@ -165,20 +169,36 @@ mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Paste", id: 967805235
 mas "Patterns", id: 429449079
+mas "Post-It", id: 1475777828
 mas "Screenflow 10", id: 1568414480
 mas "Skitch", id: 425955336
 mas "Smart JSON Editor", id: 1268962404
-# mas "Spark", id: 1176895641
 mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
 mas "Tweetbot", id: 1384080005
 mas "Vimeo", id: 1356686763
 mas "Xcode", id: 497799835
 
-# # Personal: Cedric
+#######################################
+# @divideby0 Personal Apps
+#######################################
 cask "ableton-live-suite"
-cask "native-access" # Native Instruments Installer
 cask "spotify"
+cask "native-access" # Native Instruments Installer
+mas "Shop", id: 1223471316 # Shopify Shipment Tracker (iPhone)
+
+#######################################
+# Archived
+#######################################
+# brew "sbt"
+# brew "shellcheck", args: ["build-from-source"] | this doesn't seem to install cleanly for unknown reasons
+# brew "svn"
+# cask "bettertouchtool"
+# cask "font-montserrat"
+# cask "font-source-code-pro-for-powerline"
+# cask "framer-x"
+# cask "google-cloud-sdk"
 # cask "quik"
 # cask "unity"
-mas "WhatsApp Desktop", id: 1147396723
+# mas "Spark", id: 1176895641
+# mas "WhatsApp Desktop", id: 1147396723
