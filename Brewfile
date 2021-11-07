@@ -187,7 +187,6 @@ cask "ableton-live-suite"
 cask "spotify"
 cask "native-access" # Native Instruments Installer
 mas "Blackmagic RAW Player", id: 1435415804
-mas "Shop", id: 1223471316 # Shopify Shipment Tracker (iPhone)
 
 #######################################
 # Archived
@@ -202,5 +201,6 @@ mas "Shop", id: 1223471316 # Shopify Shipment Tracker (iPhone)
 # cask "google-cloud-sdk"
 # cask "quik"
 # cask "unity"
+# mas "Shop", id: 1223471316 # Shopify Shipment Tracker (iOS) | doesn't install cleanly bc ios?
 # mas "Spark", id: 1176895641
 # mas "WhatsApp Desktop", id: 1147396723
