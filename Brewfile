@@ -186,7 +186,7 @@ mas "Xcode", id: 497799835
 cask "ableton-live-suite"
 cask "spotify"
 cask "native-access" # Native Instruments Installer
-mas "Blackmagic RAW Player": id: 1435415804
+mas "Blackmagic RAW Player", id: 1435415804
 mas "Shop", id: 1223471316 # Shopify Shipment Tracker (iPhone)
 
 #######################################
