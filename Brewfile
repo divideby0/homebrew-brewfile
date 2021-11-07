@@ -115,6 +115,7 @@ brew "zsh"
 # Desktop apps to install via Cask
 ###############################################################################
 cask "alfred"
+cask "bartender"
 cask "betterzip"
 cask "brave-browser"
 cask "caffeine"
