@@ -180,7 +180,6 @@ mas "Paste", id: 967805235
 mas "Patterns", id: 429449079
 mas "Post-It", id: 1475777828
 mas "Screenflow 10", id: 1568414480
-mas "Skitch", id: 425955336
 mas "Smart JSON Editor", id: 1268962404
 mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
