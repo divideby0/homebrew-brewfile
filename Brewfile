@@ -196,7 +196,7 @@ cask "spotify"
 cask "native-access" # Native Instruments Installer
 mas "Blackmagic RAW Player", id: 1435415804
 mas "Final Cut Pro X", id: 424389933
-
+mas "Logic Pro", id: 634148309
 
 #######################################
 # Archived
