@@ -184,7 +184,7 @@ mas "Screenflow 10", id: 1568414480
 mas "Smart JSON Editor", id: 1268962404
 mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
-mas "Tweetbot", id: 1384080005
+mas "Twitter"
 mas "Vimeo", id: 1356686763
 mas "Xcode", id: 497799835
 
@@ -195,6 +195,8 @@ cask "ableton-live-suite"
 cask "spotify"
 cask "native-access" # Native Instruments Installer
 mas "Blackmagic RAW Player", id: 1435415804
+mas "Final Cut Pro X", id: 424389933
+
 
 #######################################
 # Archived
