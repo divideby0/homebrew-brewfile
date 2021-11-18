@@ -1,25 +1,48 @@
 cask_args appdir: "/Applications"
 
-tap "homebrew/cask-versions"
-tap "homebrew/cask-fonts"
-tap "heroku/brew"
-tap "holgerbrandl/tap"
+###############################################################################
+# Third-Party Homebrew Taps
+###############################################################################
+tap "tclass/cloud_sql_proxy"
+tap "homebrew/cask-versions" # For docker-edge, etc
+tap "homebrew/cask-fonts" # For installing preferred terminal fonts, etc
+tap "heroku/brew" # For the Heroku CLI
+tap "holgerbrandl/tap" # for KScript (Kotlin scripting)
+tap "aoki/redis-cli" # For installing the Redis CLI (without installing Redis Server)
+tap "graalvm/tap"
 
+###############################################################################
 # Core dependencies and high-priority installs
+###############################################################################
 cask "xquartz"
 cask "adoptopenjdk"
-cask "istat-menus"
-cask "iterm2"
+brew "mas"
+brew "asdf"
+brew "nano"
 cask "google-chrome"
+cask "istat-menus"
+cask "slack"
+cask "zoom"
+cask "notion"
+cask "iterm2"
+cask "visual-studio-code"
+cask "visual-studio-code-insiders" # for native Apple Silicon support
+cask "intellij-idea"
+cask "keybase"
+cask "adobe-creative-cloud" # Actual Adobe apps will need to be installed separately
+mas "1Password", id: 443987910
 
+###############################################################################
 # Command line apps to install via Homebrew
+###############################################################################
 brew "ack"
 brew "ansible"
 brew "asciinema"
-brew "asdf"
 brew "awk"
+brew "aws-iam-authenticator"
 brew "aws-shell"
 brew "awscli"
+brew "azure-cli"
 brew "bash"
 brew "bc"
 brew "bfg"
@@ -27,6 +50,7 @@ brew "boost"
 brew "bzip2"
 brew "cairo"
 brew "cloc"
+brew "cloud_sql_proxy"
 brew "curl"
 brew "diceware"
 brew "diffstat"
@@ -38,6 +62,8 @@ brew "expect"
 brew "ffmpeg"
 brew "file-formula"
 brew "findutils"
+brew "git"
+brew "git-lfs"
 brew "gnu-tar"
 brew "gnu-getopt"
 brew "gnupg2"
@@ -60,18 +86,16 @@ brew "libxslt"
 brew "lsof", link: true
 brew "mad"
 brew "make"
-brew "mas"
-brew "nano"
 brew "ncurses"
 brew "openssl"
 brew "p7zip"
 brew "pipenv"
 brew "pv"
+brew "redis-cli"
 brew "ripgrep"
 brew "rsync"
-brew "sbt"
 brew "screen"
-brew "shellcheck"
+brew "skaffold"
 brew "socat"
 brew "sox"
 brew "sqlite"
@@ -81,7 +105,6 @@ brew "tcpdump"
 brew "thrift"
 brew "tmux"
 brew "tree"
-brew "unrar"
 brew "unzip"
 brew "wget"
 brew "vim"
@@ -91,57 +114,59 @@ brew "zlib"
 brew "zsh-completions"
 brew "zsh"
 
+###############################################################################
 # Desktop apps to install via Cask
-
-cask "adobe-creative-cloud"
-cask "bettertouchtool"
+###############################################################################
+cask "alfred"
+cask "android-file-transfer"
+cask "bartender"
 cask "betterzip"
 cask "brave-browser"
 cask "caffeine"
 cask "camunda-modeler"
 cask "charles"
+cask "cheatsheet"
+cask "cleanshot"
+cask "clickup"
 cask "dash"
 cask "datagrip"
 cask "deckset"
-cask "docker-edge"
+cask "docker"
 cask "encryptme"
 cask "firefox"
+cask "figma"
 cask "font-meslo-for-powerline"
-cask "font-source-code-pro-for-powerline"
-cask "font-montserrat"
-cask "framer-x"
 cask "goland"
 cask "google-chrome-canary"
-cask "google-cloud-sdk"
 cask "google-drive-file-stream"
+cask "graalvm-ce-lts-java11"
 cask "grammarly"
 cask "handbrake"
+cask "iina"
 cask "insomnia"
-cask "intellij-idea"
-cask "keybase"
 cask "kindle"
+cask "lens"
 cask "microsoft-office"
 cask "microsoft-teams"
-cask "miro-formerly-realtimeboard"
-cask "notion"
+cask "miro"
 cask "phantomjs"
 cask "pycharm"
 cask "quickbooks-online"
+cask "rar"
 cask "sketch"
 cask "skype"
-cask "slack"
 cask "sourcetree"
 cask "spectacle"
+cask "superhuman"
 cask "transmit"
 cask "vagrant"
 cask "vip-access"
 cask "viscosity"
-cask "visual-studio-code"
 cask "vmware-fusion"
-cask "zoomus"
 
+###############################################################################
 # Desktop apps to install via Mac App Store
-mas "1Password", id: 443987910
+###############################################################################
 mas "Disk Expert", id: 488920185
 mas "EasyRes", id: 688211836
 mas "Fantastical 2", id: 975937182
@@ -155,20 +180,38 @@ mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Paste", id: 967805235
 mas "Patterns", id: 429449079
-mas "Screenflow", id: 1475796517
-mas "Skitch", id: 425955336
+mas "Post-It", id: 1475777828
+mas "Screenflow 10", id: 1568414480
 mas "Smart JSON Editor", id: 1268962404
-mas "Spark", id: 1176895641
 mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
-mas "Tweetbot", id: 1384080005
+mas "Twitter", id: 1482454543
 mas "Vimeo", id: 1356686763
 mas "Xcode", id: 497799835
 
-# Personal: Cedric
-# cask "ableton-live-standard9"
-# cask "native-access" # Native Instruments Installer
+#######################################
+# @divideby0 Personal Apps
+#######################################
+# cask "ableton-live-suite"
 # cask "spotify"
+# cask "native-access" # Native Instruments Installer
+# mas "Blackmagic RAW Player", id: 1435415804
+# mas "Final Cut Pro X", id: 424389933
+# mas "Logic Pro", id: 634148309
+
+#######################################
+# Archived
+#######################################
+# brew "sbt"
+# brew "shellcheck", args: ["build-from-source"] | this doesn't seem to install cleanly for unknown reasons
+# brew "svn"
+# cask "bettertouchtool"
+# cask "font-montserrat"
+# cask "font-source-code-pro-for-powerline"
+# cask "framer-x"
+# cask "google-cloud-sdk"
 # cask "quik"
 # cask "unity"
+# mas "Shop", id: 1223471316 # Shopify Shipment Tracker (iOS) | doesn't install cleanly bc ios?
+# mas "Spark", id: 1176895641
 # mas "WhatsApp Desktop", id: 1147396723
