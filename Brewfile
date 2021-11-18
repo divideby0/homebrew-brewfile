@@ -185,7 +185,7 @@ mas "Screenflow 10", id: 1568414480
 mas "Smart JSON Editor", id: 1268962404
 mas "Textual 7", id: 1262957439
 mas "TickTick", id: 966085870
-mas "Twitter"
+mas "Twitter", id: 1482454543
 mas "Vimeo", id: 1356686763
 mas "Xcode", id: 497799835
 
