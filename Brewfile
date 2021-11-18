@@ -192,12 +192,12 @@ mas "Xcode", id: 497799835
 #######################################
 # @divideby0 Personal Apps
 #######################################
-cask "ableton-live-suite"
-cask "spotify"
-cask "native-access" # Native Instruments Installer
-mas "Blackmagic RAW Player", id: 1435415804
-mas "Final Cut Pro X", id: 424389933
-mas "Logic Pro", id: 634148309
+# cask "ableton-live-suite"
+# cask "spotify"
+# cask "native-access" # Native Instruments Installer
+# mas "Blackmagic RAW Player", id: 1435415804
+# mas "Final Cut Pro X", id: 424389933
+# mas "Logic Pro", id: 634148309
 
 #######################################
 # Archived
