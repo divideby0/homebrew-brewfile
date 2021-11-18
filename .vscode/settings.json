@@ -1,6 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "apps",
+        "packages",
         "git"
     ]
 }
