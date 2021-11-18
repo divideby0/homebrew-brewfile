@@ -26,7 +26,6 @@ cask "zoom"
 cask "notion"
 cask "iterm2"
 cask "visual-studio-code"
-cask "visual-studio-code-insiders" # for native Apple Silicon support
 cask "intellij-idea"
 cask "keybase"
 cask "adobe-creative-cloud" # Actual Adobe apps will need to be installed separately
@@ -160,7 +159,6 @@ cask "spectacle"
 cask "superhuman"
 cask "transmit"
 cask "vagrant"
-cask "vip-access"
 cask "viscosity"
 cask "vmware-fusion"
 
