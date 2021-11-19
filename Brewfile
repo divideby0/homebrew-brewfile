@@ -191,6 +191,7 @@ mas "Xcode", id: 497799835
 # @divideby0 Personal Apps
 #######################################
 cask "ableton-live-suite"
+cask "splice"
 cask "spotify"
 cask "native-access" # Native Instruments Installer
 mas "Blackmagic RAW Player", id: 1435415804
