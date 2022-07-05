@@ -151,6 +151,7 @@ brew "tor"
 brew "tree"
 brew "unzip"
 brew "velero"
+brew "vercel-cli"
 brew "vim"
 brew "watch"
 brew "watchexec"
@@ -264,20 +265,3 @@ cask "native-access" # Native Instruments Installer
 mas "Blackmagic RAW Player", id: 1435415804
 mas "Final Cut Pro X", id: 424389933
 mas "Logic Pro", id: 634148309
-
-#######################################
-# Archived
-#######################################
-# brew "sbt"
-# brew "shellcheck", args: ["build-from-source"] | this doesn't seem to install cleanly for unknown reasons
-# brew "svn"
-# cask "bettertouchtool"
-# cask "font-montserrat"
-# cask "font-source-code-pro-for-powerline"
-# cask "framer-x"
-# cask "google-cloud-sdk"
-# cask "quik"
-# cask "unity"
-# mas "Shop", id: 1223471316 # Shopify Shipment Tracker (iOS) | doesn't install cleanly bc ios?
-# mas "Spark", id: 1176895641
-# mas "WhatsApp Desktop", id: 1147396723
