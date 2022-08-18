@@ -15,7 +15,7 @@ tap "graalvm/tap"
 ###############################################################################
 cask "xquartz"
 cask "adoptopenjdk"
-cask "mas"
+brew "mas"
 brew "asdf"
 brew "nano"
 brew "zsh"
@@ -32,7 +32,6 @@ cask "adobe-creative-cloud" # Actual Adobe apps will need to be installed separa
 ###############################################################################
 # Command line apps to install via Homebrew
 ###############################################################################
-
 
 brew "ack"
 brew "antlr"
@@ -53,7 +52,6 @@ brew "brotli"
 brew "bzip2"
 brew "ca-certificates"
 brew "cairo"
-brew "chntpw"
 brew "cloc"
 brew "cloud_sql_proxy"
 brew "coreutils"
@@ -64,7 +62,7 @@ brew "diffstat"
 brew "diffutils"
 brew "docbook"
 brew "docbook-xsl"
-brew "doppler"
+brew "dopplerhq/cli/doppler"
 brew "ed"
 brew "expect"
 brew "ffmpeg"
@@ -95,7 +93,7 @@ brew "krew"
 brew "kscript"
 brew "ksync"
 brew "kubectx"
-brew "kubefwd"
+brew "txn2/tap/kubefwd"
 brew "kubernetes-cli"
 brew "kubie"
 brew "lame"
@@ -109,10 +107,10 @@ brew "lzlib"
 brew "lzo"
 brew "mad"
 brew "make"
+brew "maven"
 brew "ncurses"
 brew "openjdk"
 brew "openjdk@11"
-brew "openssl@1.0"
 brew "openssl@1.1"
 brew "openssl@3"
 brew "p11-kit"
@@ -167,7 +165,6 @@ brew "zsh-completions"
 # Desktop apps to install via Cask
 ###############################################################################
 cask "1password-cli"
-cask "adoptopenjdk8"
 cask "alfred"
 cask "android-file-transfer"
 cask "bartender"
@@ -184,7 +181,6 @@ cask "datagrip"
 cask "deckset"
 cask "discord"
 cask "docker"
-cask "encryptme"
 cask "expressvpn"
 cask "figma"
 cask "firefox"
@@ -203,7 +199,7 @@ cask "lens"
 cask "microsoft-office"
 cask "microsoft-teams"
 cask "miro"
-cask "mono-mdk-for-visual-studio"
+cask "mono-mdk"
 cask "ngrok"
 cask "phantomjs"
 cask "plex"
@@ -211,8 +207,6 @@ cask "plex-media-server"
 cask "pritunl"
 cask "pycharm"
 cask "quickbooks-online"
-case "quicken"
-cask "rar"
 cask "rectangle"
 cask "secure-pipes"
 cask "setapp"
@@ -227,7 +221,7 @@ cask "veracrypt"
 cask "viscosity"
 cask "visual-studio"
 cask "vlc"
-cask "vmware-fusion"
+# cask "vmware-fusion"
 cask "xquartz"
 
 ###############################################################################
@@ -246,11 +240,8 @@ mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Paste", id: 967805235
 mas "Patterns", id: 429449079
-mas "Post-It", id: 1475777828
 mas "Screenflow 10", id: 1568414480
-mas "Smart JSON Editor", id: 1268962404
 mas "Textual 7", id: 1262957439
-mas "TickTick", id: 966085870
 mas "Twitter", id: 1482454543
 mas "Vimeo", id: 1356686763
 mas "Xcode", id: 497799835
@@ -258,10 +249,11 @@ mas "Xcode", id: 497799835
 #######################################
 # @divideby0 Personal Apps
 #######################################
-cask "ableton-live-suite"
-cask "splice"
-cask "spotify"
-cask "native-access" # Native Instruments Installer
-mas "Blackmagic RAW Player", id: 1435415804
-mas "Final Cut Pro X", id: 424389933
-mas "Logic Pro", id: 634148309
+# cask "ableton-live-suite"
+# cask "splice"
+# cask "spotify"
+# cask "quicken"
+# cask "native-access" # Native Instruments Installer
+# mas "Blackmagic RAW Player", id: 1435415804
+# mas "Final Cut Pro X", id: 424389933
+# mas "Logic Pro", id: 634148309
