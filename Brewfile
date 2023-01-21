@@ -224,7 +224,6 @@ cask "veracrypt"
 cask "viscosity"
 cask "visual-studio"
 cask "vlc"
-cask "vmware-fusion"
 cask "xquartz"
 
 ###############################################################################
