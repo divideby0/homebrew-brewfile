@@ -208,6 +208,8 @@ cask "plex-media-server"
 cask "pritunl"
 cask "pycharm"
 cask "quickbooks-online"
+cask "quicken"
+cask "rar"
 cask "rectangle"
 cask "secure-pipes"
 cask "setapp"
@@ -254,6 +256,8 @@ mas "Xcode", id: 497799835
 # @divideby0 Personal Apps
 #######################################
 cask "ableton-live-suite"
+cask "native-access" # Native Instruments Installer
+cask "quicken"
 cask "splice"
 cask "spotify"
 cask "quicken"
