@@ -1,0 +1,83 @@
+ASDF:
+  ☐ Run `asdf install` from this folder
+
+Register Applications:
+  ☐ iStat Menus
+  ☐ Bartender
+  ☐ Paste
+  ☐ Cleanshot X
+  ☐ Tinkertool
+
+Configure iTerm:
+  ☐ Set font to "Meslo LG L DZ for Powerline"
+  ☐ Set color preset to "Solarized Dark"
+
+Configure VS Code:
+  ☐ Log in to Github
+  ☐ Log in to CodeStream
+
+Configure Fantastical:
+  ☐ Add Spantree Account
+  ☐ Add Personal Account
+
+Set Application Permissions:
+  Location Services:
+    ☐ 1Password
+    ☐ Fantastical
+    ☐ Fantastical Helper
+    ☐ iStatus Menu Status
+    ☐ Keybase
+    ☐ Slack
+    ☐ Weather
+  Contacts:
+    ☐ Fantastical
+  Calendars:
+    ☐ Fantastical
+  Microphone:
+    ☐ Slack
+    ☐ Zoom
+  Camera:
+    ☐ Slack
+    ☐ Zoom
+  Screen Recording:
+    ☐ Slack
+    ☐ Zoom
+    ☐ Screenflow
+
+Configure System Applications:
+  ☐ Configure Docker
+    ☐ Open & Install Kernel Extensions
+    ☐ Docker Login
+  ☐ Configure 1Password
+    ☐ Log In
+    ☐ Install Firefox Extension
+    ☐ Install Chrome Extension
+  ☐ Vercel CLI
+  ☐ Shub (Zyte Deployment Tool)
+
+Install Drivers:
+  ☐  Install Brother Print & Scan
+  ☐  Install Canon Print & Scan Drivers
+
+Configure Media Applications:
+  ☐ Adobe Creative Cloud
+    ☐ Log In
+    ☐ Install Adobe Acrobat
+    ☐ Install Adobe After Effects
+    ☐ Install Adobe Audition
+    ☐ Install Adobe Illustrator
+    ☐ Install Adobe Lightr
+    ☐ Install Adobe Media Encoder
+    ☐ Install Adobe Photoshop
+    ☐ Install Adobe Premiere Pro
+    ☐ Davinci Resolve
+  
+Install Music Tools:
+  ☐ Register Ableton Live
+  ☐ Install Ueberschall Elastic Player
+  ☐ Install Output Arcade
+  ☐ Install PluralEyes 4
+  ☐ Install Spectrasonics Keyscape
+  ☐ Install Spectrasonics Omnisphere
+  ☐ Install Spectrasonics Trillian
+  
