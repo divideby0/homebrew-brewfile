@@ -6,7 +6,8 @@ trap ":" ERR
 asdf plugin-add argo
 asdf install argo 3.3.8
 asdf install argo 3.4.4
-asdf global argo 3.4.4
+asdf install argo 3.5.12
+asdf global argo 3.5.12
 
 asdf plugin-add awscli
 asdf install awscli 2.9.17
@@ -42,25 +43,16 @@ asdf install kubie 0.19.1
 asdf install kubie latest
 asdf global kubie latest
 
-asdf plugin-add cloudsql-proxy
-asdf install cloudsql-proxy 1.33.2
-# broken(missing-binary): asdf install cloudsql-proxy 2.0.0
-# broken(missing-binary): asdf install cloudsql-proxy latest
-asdf global cloudsql-proxy 1.33.2
-
 asdf plugin-add eksctl
 asdf install eksctl 0.126.0
 asdf install eksctl latest
 asdf global eksctl latest
 
 asdf plugin-add java
-asdf install java adoptopenjdk-11.0.17+8
-asdf install java graalvm-22.3.0+java11
-asdf install java graalvm-22.3.0+java17
-asdf install java graalvm-22.3.0+java19
-asdf install java openjdk-17
-asdf install java openjdk-19
-asdf global java openjdk-19
+asdf install java openjdk-23
+asdf install java graalvm-community-23.0.1
+asdf install java oracle-graalvm-22
+asdf global java openjdk-23
 
 asdf plugin-add kfilt https://github.com/feniix/asdf-kfilt.git
 asdf install kfilt 0.0.7
@@ -83,8 +75,6 @@ asdf install kubectx 0.9.4
 asdf install kubectx latest
 asdf global kubectx latest
 
-# broken(no-plugin): asdf plugin add kubefwd | true
-
 asdf plugin-add kustomize
 asdf install kustomize 4.5.5
 asdf install kustomize 4.5.7
@@ -103,13 +93,13 @@ asdf install ruby latest
 asdf global ruby latest
 
 asdf plugin-add nodejs
-asdf install nodejs 16.15.1
-asdf install nodejs 16.19.0
-asdf install nodejs 18.9.1
-asdf install nodejs 19.4.0
-asdf install nodejs lts
+asdf install nodejs 16.20.2
+asdf install nodejs 18.20.4
+asdf install nodejs 19.9.0
+asdf install nodejs 20.18.0
+asdf install nodejs 22.11.0
 asdf install nodejs latest
-asdf global nodejs lts
+asdf global nodejs 22.11.0
 
 asdf plugin-add pnpm
 asdf install pnpm 7.25.1
@@ -139,9 +129,8 @@ asdf global ruby latest
 
 asdf plugin-add skaffold
 asdf install skaffold 2.0.5
-# broken(arm64) asdf install skaffold 2.2.3
-# broken(arm64) asdf install skaffold latest
-asdf global skaffold 2.0.5
+asdf install skaffold latest
+asdf global skaffold latest
 
 asdf plugin-add sops
 asdf install sops 3.7.3
@@ -161,7 +150,6 @@ asdf install terraform latest
 asdf global terraform latest
 
 asdf plugin-add terragrunt
-asdf install terragrunt 0.19.21
 asdf install terragrunt 0.43.0
 asdf install terragrunt latest
 asdf global terragrunt latest
@@ -170,3 +158,33 @@ asdf plugin-add yarn
 asdf install yarn 1.22.19
 asdf install yarn latest
 asdf global yarn latest
+
+asdf plugin add deno
+asdf install deno 1.46.3
+asdf install deno 2.0.5
+asdf global deno 2.0.5
+
+asdf plugin add aws-iam-authenticator
+asdf install aws-iam-authenticator 0.5.9
+asdf install aws-iam-authenticator latest
+asdf global aws-iam-authenticator latest
+
+asdf plugin add gcloud
+asdf install gcloud latest
+asdf global gcloud latest
+
+asdf plugin add gradle
+asdf install gradle latest
+asdf global gradle latest
+
+asdf plugin add heroku-cli
+asdf install heroku-cli latest
+asdf global heroku-cli latest
+
+asdf plugin add nomad
+asdf install nomad latest
+asdf global nomad latest
+
+asdf plugin add poetry
+asdf install poetry latest
+asdf global poetry latest
